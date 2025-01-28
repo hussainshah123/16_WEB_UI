@@ -1,0 +1,524 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.link {
+  display: flex; /* Use flexbox to control layout */
+  gap: 0px; /* Adds space between the links */
+}
+
+.link a {
+  text-decoration: none; /* Remove underline from links */
+  color: "#00000059"; /* Change color as needed */
+  padding: 5px 20px; /* Optional padding for better spacing */
+  border-radius: 5px; /* Add some rounded corners */
+  transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+.link a:hover {
+  color: black;
+   border-bottom-width: 2px;
+   border-bottom-color: gray;
+}
+
+/* .link a::before{} */
+.user a{
+  margin-right: 20px;
+  gap: 20px;
+  text-decoration: none;
+  color: gray;
+
+}
+.user a:hover{
+  color: #007bff;
+}
+/* Banner container styles */
+.banner {
+  display: flex; /* Align text and images side by side */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional background color */
+}
+
+/* Text content styles */
+.text-content {
+  flex: 1; /* Takes one part of the space */
+  max-width: 50%; /* Limits width to 50% */
+}
+
+.heading{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.heading h1{
+   font-size:  70px;
+   font-family: 'Gilroy-Bold';
+
+}
+.heading span{
+   color: #087BBA;
+}
+.heading p{
+  font-size: 17px;
+  color: gray;
+  
+}
+
+.Home{
+   display: flex;
+   justify-content: space-between;
+}
+
+.imagess{
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+.imagess .img1{
+ margin-top: 10px;
+margin-right: 500px;
+  width: 35px;
+  height: 118.33px;
+  rotate: calc(15deg);
+
+}
+.imagess .img2{
+  margin-top: -50px;
+  margin-left: -40px;
+   width: 350px;
+   height: 190.33px;
+   /* rotate: calc(15deg); */
+ 
+ }
+ .imagess .img3{
+  margin-top: -160px;
+  margin-left: -500px;
+   width: 210px;
+   height: 200.33px;
+   rotate: calc(-9deg);
+ 
+ }
+ .imagess .img4{
+  margin-top: -50px;
+  margin-right: 430px;
+   width: 50px;
+   height: 90.33px;
+   rotate: calc(-10deg);
+ 
+ }
+ .imagess .img5{
+  margin-top: -60px;
+  margin-right: 30px;
+   width: 200px;
+   height: 190.33px;
+
+ 
+ }
+.MainCard{
+  display: flex;
+  gap: 50px;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 12%;
+  background-color: #FFFFFF;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.icons{
+  display: flex;
+  gap: 10px;
+}
+
+.arrow{
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -29px;
+  margin-top: -15px;
+  border-radius: 50%;
+  background-color: #007bff;
+}
+.arrow span{
+  padding: 16px;
+align-items: center;
+display: flex;
+}
+
+.com{
+   display: flex;
+ 
+   gap: 40px;
+ 
+}
+.imagesss{
+  align-items: flex-start;
+  display: flex;
+  margin-left: 50px;
+}
+.imagesss img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+ 
+}
+.customer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.visa img{
+  width: 90px;
+  height: 60px;
+
+}
+.card2{
+  background-image:url("src/assets/images/bg.png" ) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 90%;
+ height: 400px;
+margin-top: 15%;
+margin-left: 60px;
+border-top-right-radius: 70px;
+border-bottom-right-radius: 30px;
+
+}
+.piza {
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 70px;
+
+}
+.piza img{
+  width: 150px;
+  margin-top: -40px;
+}
+
+.phoneContainer{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.phoneContainer .phone {
+ margin-top: -150px;
+
+}
+.down{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.down div p{
+  text-align: center;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text h2{
+  color: black;
+  font-size: 40px;
+  font-weight:700;
+}
+.text span{
+  color: #009bff;
+}
+.text button{
+align-self: flex-start;
+  border: none;
+  padding: 15px;
+  border-radius: 30%;
+}
+.categories{
+  display: flex;
+  justify-content: center;
+  top: 220px;
+  position: relative;
+
+
+  
+}
+.category-grid{
+  display: flex;
+  gap: 25px;
+
+}
+.category-card{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  height: 70px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.category-card img{
+  width: 250px;
+  
+}
+
+
+.categories-container{
+  display: flex;
+
+  margin-top: 390px;
+  flex-direction: column;
+}
+.categories-grid{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+}
+.category-image{
+  width: 200px;
+}
+.categories-container h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: oblique;
+}
+.card-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0px;
+  overflow-x: hidden;
+}
+.card-heading h1 {
+  color: white;
+  position: relative;
+  z-index: 1;
+  font-size: 36px;
+  margin-top: 80px;
+  font-weight: 400;
+}
+
+.cards {
+  position: relative;
+  z-index: 1;
+  margin-right: 50px;
+  margin-left: 40px;
+}
+.card-section {
+  background: #fff;
+  height: 260px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.card-section img {
+  width: 15%;
+  height: 15%;
+  margin: 20px auto;
+}
+
+.text-para2 {
+  display: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px !important;
+}
+
+.arrow-icons {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  transition: 0.7s ease-in;
+}
+.card-section:hover {
+  padding: 20px 0px 20px;
+  height: 300px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  cursor: grab;
+}
+.card-section:hover .arrow-icons {
+  margin-top: 50px;
+  transform: rotate(180deg);
+  transition: 0.5s ease-in;
+}
+.card-section:hover .text-para2 {
+  display: block;
+}
+
+.card-section h2 {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.card-section p {
+  text-align: center;
+  font-size: 14px;
+  color: #5c5c5c;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.slick-slide > div {
+  margin: 0 8px;
+}
+.testimonial-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+
+.testimonial-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonial-role {
+  font-size: 14px;
+  color: gray;
+}
+
+.testimonial-review {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.testimonial-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.star-icon {
+  color: gold;
+}
+
+.slider-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.slider-btn.left {
+  margin-right: 10px;
+}
+
+.slider-btn.right {
+  margin-left: 10px;
+}
+.cardText h1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.cardText span{
+  color: #007bff;
+}
+
+
+
+/* Footer.css */
+.footer {
+  background-color: #121212;
+  color: white;
+  padding: 40px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-logo .logo {
+  width: 100px;
+}
+.footer-section {
+  max-width: 250px;
+}
+.footer-title {
+  color: #0099ff;
+  margin-bottom: 10px;
+}
+.newsletter {
+  display: flex;
+  gap: 10px;
+}
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+.newsletter button {
+  background-color: #0099ff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+.social-icons svg {
+  color: #0099ff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-bottom hr {
+  border: 0.5px solid #333;
+  margin-bottom: 10px;
+}
