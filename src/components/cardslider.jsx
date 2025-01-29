@@ -29,7 +29,7 @@ const testimonials = [
           "أنا أحب خدماتهم واستمتع بها. هذه أفضل منصة! أنا أحب خدماتهم واستمتع بها. هذه أفضل منصة!",
         rating: 4.7,
       },
-    // Add more testimonials as needed
+  
   ];
 const CardSlider=()=>{
     return(<>
